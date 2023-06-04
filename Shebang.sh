@@ -3,4 +3,4 @@
 echo welocme to mybatch
 
 echo Line1
-Echo Line2
+echo Line2
