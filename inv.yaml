@@ -1,0 +1,6 @@
+- name: san
+  hosts: all
+  tasks: 
+   - name: playing cricket
+     ansible.builtin.debug:
+       msg: Hello from cricket
