@@ -1,6 +1,11 @@
 - name: san
   hosts: all
+  vars :
+    URL : hi.google.com
   tasks: 
    - name: playing cricket
      ansible.builtin.debug:
-       msg: Hello from cricket
+       msg: Hello from cricket is {{ URL }}
+   - name: playing football
+     ansible.builtin.debug:
+      msg: Hello from Football is {{ URL }}
